@@ -1,11 +1,10 @@
 header {
     background-color: rgb(181, 92, 199);
-    height: 8vw;
     border-radius: 5px;
     border: 10px;
-    margin: 0px 0px 1vh 0px;
-
-    
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 .footer { 
@@ -17,8 +16,7 @@ header {
     border-radius: 5px;
 }
 .menu {
-    padding-left: 120px;
-    margin: 0vw;
+    display: inline-block;
 }
 
 .menu-item {
@@ -29,18 +27,19 @@ header {
 }
 
 .logo {
-    height: 6vw;
+    display: inline-block;
+    height: 60px;
     clip-path: circle(50%);
     margin-top: 1vh; 
     margin-left: 1vw;
     margin-right: 0px;
+
 }
 
 .cart {
-    padding-left: 90vw;
-    height: 5vw;
-    margin-top: -40vh;
-
+    display: inline-block;
+    height: 60px;
+    padding-left: 70%;
 }
 
 .catalog_cl {
